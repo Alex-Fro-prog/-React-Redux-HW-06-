@@ -1,0 +1,304 @@
+{
+    "tickets": [
+      {
+        "id": 1,
+        "from": "Москва",
+        "to": "Лондон",
+        "company": "Победа",
+        "price": 12000,
+        "currency": "RUB",
+        "time": {
+          "departure": "10:00",
+          "arrival": "14:30"
+        },
+        "duration": 270,
+        "date": "2024-11-01",
+        "connectionAmount": 0
+      },
+      {
+        "id": 2,
+        "from": "Лондон",
+        "to": "Москва",
+        "company": "Red Wings",
+        "price": 12500,
+        "currency": "RUB",
+        "time": {
+          "departure": "15:00",
+          "arrival": "21:15"
+        },
+        "duration": 315,
+        "date": "2024-11-05",
+        "connectionAmount": 1
+      },
+      {
+        "id": 3,
+        "from": "Париж",
+        "to": "Берлин",
+        "company": "S7",
+        "price": 8500,
+        "currency": "RUB",
+        "time": {
+          "departure": "13:45",
+          "arrival": "15:30"
+        },
+        "duration": 105,
+        "date": "2024-11-02",
+        "connectionAmount": 0
+      },
+      {
+        "id": 4,
+        "from": "Берлин",
+        "to": "Париж",
+        "company": "Победа",
+        "price": 8800,
+        "currency": "RUB",
+        "time": {
+          "departure": "16:00",
+          "arrival": "17:45"
+        },
+        "duration": 105,
+        "date": "2024-11-06",
+        "connectionAmount": 0
+      },
+      {
+        "id": 5,
+        "from": "Нью-Йорк",
+        "to": "Токио",
+        "company": "Red Wings",
+        "price": 46000,
+        "currency": "RUB",
+        "time": {
+          "departure": "22:30",
+          "arrival": "16:20"
+        },
+        "duration": 830,
+        "date": "2024-11-03",
+        "connectionAmount": 1
+      },
+      {
+        "id": 6,
+        "from": "Токио",
+        "to": "Нью-Йорк",
+        "company": "S7",
+        "price": 47000,
+        "currency": "RUB",
+        "time": {
+          "departure": "17:00",
+          "arrival": "17:15"
+        },
+        "duration": 885,
+        "date": "2024-11-07",
+        "connectionAmount": 2
+      },
+      {
+        "id": 7,
+        "from": "Рим",
+        "to": "Амстердам",
+        "company": "Победа",
+        "price": 13000,
+        "currency": "RUB",
+        "time": {
+          "departure": "08:00",
+          "arrival": "10:15"
+        },
+        "duration": 135,
+        "date": "2024-11-04",
+        "connectionAmount": 0
+      },
+      {
+        "id": 8,
+        "from": "Амстердам",
+        "to": "Рим",
+        "company": "Red Wings",
+        "price": 13500,
+        "currency": "RUB",
+        "time": {
+          "departure": "19:30",
+          "arrival": "21:45"
+        },
+        "duration": 135,
+        "date": "2024-11-08",
+        "connectionAmount": 1
+      },
+      {
+        "id": 9,
+        "from": "Дубай",
+        "to": "Сидней",
+        "company": "S7",
+        "price": 54000,
+        "currency": "RUB",
+        "time": {
+          "departure": "23:55",
+          "arrival": "15:30"
+        },
+        "duration": 875,
+        "date": "2024-11-05",
+        "connectionAmount": 1
+      },
+      {
+        "id": 10,
+        "from": "Сидней",
+        "to": "Дубай",
+        "company": "Победа",
+        "price": 55000,
+        "currency": "RUB",
+        "time": {
+          "departure": "16:00",
+          "arrival": "21:30"
+        },
+        "duration": 930,
+        "date": "2024-11-10",
+        "connectionAmount": 2
+      },
+      {
+        "id": 11,
+        "from": "Барселона",
+        "to": "Брюссель",
+        "company": "Red Wings",
+        "price": 9500,
+        "currency": "RUB",
+        "time": {
+          "departure": "11:20",
+          "arrival": "13:10"
+        },
+        "duration": 110,
+        "date": "2024-11-06",
+        "connectionAmount": 0
+      },
+      {
+        "id": 12,
+        "from": "Брюссель",
+        "to": "Барселона",
+        "company": "S7",
+        "price": 9000,
+        "currency": "RUB",
+        "time": {
+          "departure": "12:30",
+          "arrival": "14:15"
+        },
+        "duration": 105,
+        "date": "2024-11-11",
+        "connectionAmount": 1
+      },
+      {
+        "id": 13,
+        "from": "Сеул",
+        "to": "Пекин",
+        "company": "Победа",
+        "price": 16000,
+        "currency": "RUB",
+        "time": {
+          "departure": "10:30",
+          "arrival": "13:00"
+        },
+        "duration": 150,
+        "date": "2024-11-07",
+        "connectionAmount": 0
+      },
+      {
+        "id": 14,
+        "from": "Пекин",
+        "to": "Сеул",
+        "company": "Red Wings",
+        "price": 16500,
+        "currency": "RUB",
+        "time": {
+          "departure": "16:30",
+          "arrival": "18:00"
+        },
+        "duration": 90,
+        "date": "2024-11-12",
+        "connectionAmount": 2
+      },
+      {
+        "id": 15,
+        "from": "Мюнхен",
+        "to": "Москва",
+        "company": "S7",
+        "price": 14000,
+        "currency": "RUB",
+        "time": {
+          "departure": "17:45",
+          "arrival": "21:30"
+        },
+        "duration": 225,
+        "date": "2024-11-08",
+        "connectionAmount": 0
+      },
+      {
+        "id": 16,
+        "from": "Москва",
+        "to": "Мюнхен",
+        "company": "Победа",
+        "price": 14500,
+        "currency": "RUB",
+        "time": {
+          "departure": "10:00",
+          "arrival": "12:30"
+        },
+        "duration": 150,
+        "date": "2024-11-15",
+        "connectionAmount": 3
+      },
+      {
+        "id": 17,
+        "from": "Шанхай",
+        "to": "Гонконг",
+        "company": "Red Wings",
+        "price": 18000,
+        "currency": "RUB",
+        "time": {
+          "departure": "15:00",
+          "arrival": "17:30"
+        },
+        "duration": 150,
+        "date": "2024-11-09",
+        "connectionAmount": 0
+      },
+      {
+        "id": 18,
+        "from": "Гонконг",
+        "to": "Шанхай",
+        "company": "S7",
+        "price": 18500,
+        "currency": "RUB",
+        "time": {
+          "departure": "19:00",
+          "arrival": "21:00"
+        },
+        "duration": 120,
+        "date": "2024-11-18",
+        "connectionAmount": 1
+      },
+      {
+        "id": 19,
+        "from": "Лос-Анджелес",
+        "to": "Бангкок",
+        "company": "Победа",
+        "price": 50000,
+        "currency": "RUB",
+        "time": {
+          "departure": "22:15",
+          "arrival": "06:50"
+        },
+        "duration": 975,
+        "date": "2024-11-10",
+        "connectionAmount": 1
+      },
+      {
+        "id": 20,
+        "from": "Бангкок",
+        "to": "Лос-Анджелес",
+        "company": "Red Wings",
+        "price": 51000,
+        "currency": "RUB",
+        "time": {
+          "departure": "08:30",
+          "arrival": "09:00"
+        },
+        "duration": 945,
+        "date": "2024-11-13",
+        "connectionAmount": 2
+      }
+    ]
+}  

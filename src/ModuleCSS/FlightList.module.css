@@ -1,0 +1,260 @@
+.headContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headLogoContainer {
+    margin-top: 84px;
+    margin-left: 186px;
+    display: flex;
+    align-items: center;
+}
+
+.headLogoContainer > img {
+    width: 100px;
+    height: 81px;
+}
+
+.headTitle {
+    margin-left: 34px;
+    font-size: 24px;
+    color: #4E148C;
+}
+
+.headInputContainer {
+    margin: 84px 0 0 100px;
+}
+
+.headInputContainer > input {
+    margin-right: 25px;
+}
+
+.sortContainer {
+    display: flex;
+}
+
+.filterContainer {
+    margin-top: 20px;
+    margin-left: 186px;
+}
+
+.filterBlock {
+    margin-bottom: 47px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8EBF2;
+    border-radius: 5px;
+}
+
+.filterBlock > h3 {
+    font-size: 20px;
+    color: #4E148C;
+}
+
+.filterBlock > label {
+    font-size: 16px;
+    color: #858AE3;
+}
+
+.sortButtonsContainer {
+    margin: 20px 0 20px 50px;
+    width: 1022px;
+}
+
+.sortButtons {
+    width: 33.33%;
+    border: 1px solid #4E148C;
+    color: #4E148C;
+}
+
+.sortButtons:active,
+.sortButtons:focus {
+    background-color: #4E148C;
+    color: #F7F9F7;
+}
+
+.sortButtonsLeft {
+    border-radius: 5px 0 0 5px;
+}
+
+.sortButtonsMiddle {
+    border-radius: 0;
+}
+
+.sortButtonsRight {
+    border-radius: 0 5px 5px 0;
+}
+
+.filterToggleButton {
+    display: none;
+}
+
+.flightItem {
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    margin-top: 47px;
+    margin-left: 50px;
+    border: none; 
+    padding: 15px auto;
+    border-radius: 5px;
+    background-color: #E8EBF2;
+    transition: transform 0.2s;
+    align-items: center;
+    justify-items: center;
+}
+
+.flightItemPrice {
+    font-size: 32px;
+    color: #4E148C;
+    font-weight: bold;
+}
+
+.flightItemDestination,
+.flightItemTimeDurationTitle,
+.flightItemConectionTitle {
+    font-size: 16px;
+    color: #858AE3;
+}
+
+.flightItemTimeDA,
+.flightItemTimeDuration,
+.flightItemConection {
+    font-size: 16px;
+    color: #4E148C;
+    font-weight: bold;
+}
+/* .flightItemDate
+ */
+
+.flightListButton {
+    margin: 20px 0 20px 50px;
+    width: 1022px;
+    background-color: #4E148C;
+    color: #F7F9F7;
+}
+
+.filterBlock input[type="checkbox"] {
+    display: none;
+}
+
+/* Стили для label (чекбокс) */
+.filterBlock .checkboxLabel,
+.filterBlock .radioLabel {
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.filterBlock .checkboxLabel span::before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    border: 2px solid #4E148C;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 22px;
+    transition: all 0.3s ease;
+}
+
+.filterBlock input[type="checkbox"]:checked + .checkboxSpan::before {
+    background: url('../../public/images/check.png') no-repeat center center;
+    background-size: 15px 15px;
+}
+
+.filterBlock .radioLabel span::before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    border: 2px solid #4E148C;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 22px;
+    transition: all 0.3s ease;
+}
+
+.filterBlock input[type="checkbox"]:checked + .radioSpan::before {
+    background-image: url('../../public/images/checkRound.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+
+
+@media (min-width: 431px) and (max-width: 768px) {
+    .headContainer {
+        justify-content: center;
+        max-width: 768px;
+    }
+    .headLogoContainer {
+       margin-left: 0;
+    }
+    .headTitle {
+        display: none;
+    }
+    .filterContainer {
+        display: none;
+    }
+    .sortButtonsContainer,
+    .flightListButton {
+        margin: 20px 0 20px 14px;
+        max-width: 740px;
+    }
+    .flightItem {
+        margin-left: 14px;
+        max-width: 740px;
+    }
+    .filterToggleButton {
+        margin-left: 14px;
+        width: 740px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #4E148C;
+        color: #E8EBF2;
+        border-radius: 5px 5px 0 0;
+    }
+    .filterToggleButtonText {
+        padding-left: 140px;
+    }
+    .filterToggleButtonText > img {
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .filterDropdown {
+        display: flex;
+        width: 740px;
+        margin-left: 14px;
+        border-radius: 0 0 5px 5px;
+    }
+    .filterBlock {
+        width: 50%;
+        background-color: #4E148C;
+        color: #F7F9F7;
+        border-radius: 0;
+    }
+    .filterBlock > h3 {
+        color: #F7F9F7;
+    }
+    .filterBlock > label {
+        color: #F7F9F7;
+    }
+    .filterBlock .checkboxLabel span::before {
+        border: 2px solid #F7F9F7;
+    }
+    .filterBlock input[type="checkbox"]:checked + .checkboxSpan::before {
+        background: url('../../public/images/checkWhite.png') no-repeat center center;
+    }
+    .filterBlock .radioLabel span::before {
+        border: 2px solid #F7F9F7;
+    }
+    .filterBlock input[type="checkbox"]:checked + .radioSpan::before {
+        background-image: url('../../public/images/checkRoundWhite.png');
+    }
+    .filterBlockLeft {
+        border-radius: 0 0 0 5px;
+    }
+    .filterBlockRight {
+        border-radius: 0 0 5px 0;
+    }
+}
